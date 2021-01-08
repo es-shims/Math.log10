@@ -12,9 +12,7 @@
 			"capIsNewExceptions": [
 			],
 		}],
-		"no-magic-numbers": [2, {
-			"ignore": [0, 1, 2]
-		}],
+		"no-magic-numbers": 2,
 		"no-negated-condition": 0,
 		"operator-linebreak": [2, "before"],
 	},
