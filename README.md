@@ -1,5 +1,7 @@
 # Math.log10 <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
+[![github actions][actions-image]][actions-url]
+[![coverage][codecov-image]][codecov-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
@@ -41,3 +43,7 @@ Simply clone the repo, `npm install`, and run `npm test`
 [license-url]: LICENSE
 [downloads-image]: https://img.shields.io/npm/dm/math.log10.svg
 [downloads-url]: https://npm-stat.com/charts.html?package=math.log10
+[codecov-image]: https://codecov.io/gh/es-shims/Math.log10/branch/main/graphs/badge.svg
+[codecov-url]: https://app.codecov.io/gh/es-shims/Math.log10/
+[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/es-shims/Math.log10
+[actions-url]: https://github.com/es-shims/Math.log10/actions
