@@ -16,9 +16,9 @@ test('named exports', async (t) => {
 	);
 
 	const { shim, getPolyfill, implementation } = log10Module;
-	t.equal(await import('math.log10/shim'), shim, 'shim named export matches deep export');
-	t.equal(await import('math.log10/implementation'), implementation, 'implementation named export matches deep export');
-	t.equal(await import('math.log10/polyfill'), getPolyfill, 'getPolyfill named export matches deep export');
+	t.equal((await import('math.log10/shim')).default, shim, 'shim named export matches deep export');
+	t.equal((await import('math.log10/implementation')).default, implementation, 'implementation named export matches deep export');
+	t.equal((await import('math.log10/polyfill')).default, getPolyfill, 'getPolyfill named export matches deep export');
 
 	t.end();
 });
